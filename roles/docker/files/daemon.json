@@ -1,0 +1,10 @@
+{
+  "graph": "/data/docker",
+  "registry-mirrors": ["https://b9pmyelo.mirror.aliyuncs.com"],
+  "insecure-registries": ["hub.cropy.cn"],
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "100m"
+  },
+  "storage-driver": "overlay2"
+}
